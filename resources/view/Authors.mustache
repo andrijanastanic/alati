@@ -1,7 +1,9 @@
 <html>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <head>
- <title>Početna</title>
-<style >
+ <title>Autori</title>
+
+<style>
 .body{
     background-image:url("pages-book-green.jpg");
 }
@@ -12,7 +14,7 @@
         }
     .main
     {
-        background-image:url('view\pages-book-green.jpg');
+        background-image:url('pages-book-green.jpg');
         width:100%;
         padding-top:70px;
         height: 565px;
@@ -131,6 +133,55 @@
   background-color: #555;
   text-align: center;
 }
+
+.table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left:40px;
+  margin-right:20px;
+}
+
+.table td, .table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-update{
+color: orange; /* Blue background */
+  border: none; /* Remove borders */
+  align:center;
+  width:100%;
+  margin-left:17px;
+}
+
+.btn {
+  color:red;
+  border: none; /* Remove borders */
+  align:center;
+  width:100%;
+  margin-left:17px;
+
+
+}
+.btns{
+    width:5%;
+    text-align:center;
+
+}
+
 </style>
 
 </head>-->
@@ -139,7 +190,7 @@
 <div class="header">
             <div class="title">
                 <h1>
-                    Knjigoteka
+                   Autori
                 </h1>
             </div>
             <div class="navbar">
@@ -159,8 +210,27 @@
 
            </div>
     <div class="main">
+            <table class="table">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Ime</th>
+                                    <th>Prezime</th>
+                                    <th>Nagrade</th>
+                                    <th class=btns>Izmeni</th>
+                                    <th class=btns>Obrisi</th>
 
+                                    {{#authors}}
 
+                                <tr>
+                                    <td>{{authorid}}</th>
+                                    <td>{{author_name}}</th>
+                                    <td>{{author_surname}}</th>
+                                    <td>{{awards}}</th>
+                                    <td><a href="/DB/dbb/{{authorid}}/select_author" class="btn-update"><i class="fas fa-user-edit"></i></a></td>
+                                    <td><a href="/DB/dbb/{{authorid}}/delete_author" class="btn"><i class="fas fa-user-minus"></i></a></td>
+                                </tr>
+                                {{/authors}}
+                            </table>
     </div>
     <div class="footer">
 

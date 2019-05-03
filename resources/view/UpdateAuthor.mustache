@@ -1,7 +1,9 @@
 <html>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <head>
- <title>Početna</title>
-<style >
+ <title>Izmeni autora</title>
+
+<style>
 .body{
     background-image:url("pages-book-green.jpg");
 }
@@ -12,7 +14,7 @@
         }
     .main
     {
-        background-image:url('view\pages-book-green.jpg');
+        background-image:url('pages-book-green.jpg');
         width:100%;
         padding-top:70px;
         height: 565px;
@@ -131,6 +133,43 @@
   background-color: #555;
   text-align: center;
 }
+
+Form{
+    width: 300px;
+    margin-left:530px;
+    border:1px;
+    border-color:#4CAF50;
+}
+.Form input[type=text], select {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.Form button[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Form button[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.Form div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 </style>
 
 </head>-->
@@ -139,7 +178,7 @@
 <div class="header">
             <div class="title">
                 <h1>
-                    Knjigoteka
+                   Autori
                 </h1>
             </div>
             <div class="navbar">
@@ -159,6 +198,24 @@
 
            </div>
     <div class="main">
+            <div class="Form" style="width:30%;">
+                <form action="/DB/dbb/{{author.authorid}}/update_author" method="post">
+                    <div class="form-group">
+                        <label for="name">Ime autora</label>
+                        <input type="text" class="form-control" name="author_name" value="{{author.author_name}}"/>
+                    </div>
+                     <div class="form-group">
+                         <label for="surname">Prezime autora</label>
+                         <input type="text" class="form-control" name="author_surname" value="{{author.author_surname}}"/>
+                     </div>
+                    <div class="form-group">
+                        <label for="awards">Nagrade</label>
+                        <input type="text" class="form-control" name="awards" value="{{author.awards}}"/>
+                    </div>
+
+                    <button type="submit">Izmeni autora</button>
+                </form>
+            </div>
 
 
     </div>

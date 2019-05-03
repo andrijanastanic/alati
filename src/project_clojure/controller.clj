@@ -1,7 +1,8 @@
 (ns project-clojure.controller
   (:require
     [clostache.parser :as clostache]
-    [project-clojure.DB.books :as db_books]
+    [project-clojure.DB.DBBroker :as dbb]
+
     ))
 
 
@@ -16,5 +17,11 @@
   (render-template "FirstPage" {}))
 
 (defn books[]
-  (render-template "Books" {:books (db_books/select_all_books)}))
+  (render-template "Books" {:books (dbb/select_all_books)}))
 
+(defn authors[]
+  (render-template "Authors" {:authors (dbb/select_all_authors)}))
+
+(defn update_author[id]
+  (render-template "UpdateAuthor" {:author (dbb/select_author_by_id id)}
+                   ))

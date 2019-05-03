@@ -9,6 +9,7 @@
             [compojure.handler :as handler]
             [project-clojure.controller :as controller]
             [ring.middleware.resource :refer [wrap-resource]]
+            [project-clojure.DB.DBBroker :as dbb]
             ))
 
 (defroutes api_routes
@@ -18,6 +19,16 @@
            (route/resources "/")
            (GET "/books" [] (controller/books))
            (route/resources "/")
+           (GET "/authors" [] (controller/authors))
+           (route/resources "/")
+           (GET "/DB/dbb/:id/delete_author" [id]
+             (do (dbb/delete_author id)
+                 (resp/redirect "/authors")))
+           (GET "/DB/dbb/:id/select_author" [id]
+             (controller/update_author id))
+           (POST "/DB/dbb/:authorID/update_author" [& author]
+             (do (dbb/update_author (:authorID author) author)
+                 (resp/redirect "/authors")))
            )
 
 (defroutes app-routes

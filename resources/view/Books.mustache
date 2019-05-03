@@ -1,6 +1,8 @@
 <html>
 <head>
  <title>Početna</title>
+
+
 <style>
 .body{
     background-image:url("pages-book-green.jpg");
@@ -170,7 +172,7 @@
             </div>
             <div class="navbar">
   <a style="margin-left:550px; width: 57px;" href="/index">Početna</a>
-  <a href="#news">Autori</a>
+  <a href="/authors">Autori</a>
   <div class="dropdown">
     <button class="dropbtn">Knjige
       <i class="fa fa-caret-down"></i>
@@ -187,6 +189,7 @@
     <div class="main">
             <table class="table">
                                 <tr>
+                                    <th>ID</th>
                                     <th>Naziv</th>
                                     <th>Ime pisca</th>
                                     <th>Prezime pisca</th>
@@ -197,6 +200,7 @@
                                     {{#books}}
 
                                 <tr class="success">
+                                    <td>{{bookid}}</th>
                                     <td>{{name}}</th>
                                     <td>{{author_name}}</th>
                                     <td>{{author_surname}}</th>
