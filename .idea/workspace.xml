@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad93efab-8cad-4848-a88f-c2bb813756c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/view/Authors.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/resources/view/Authors.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/view/Books.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/resources/view/Books.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/view/FirstPage.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/resources/view/FirstPage.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project_clojure/DB/books.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/project_clojure/DB/DBBroker.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/project_clojure/DB/DBBroker.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/project_clojure/DB/DBBroker.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project_clojure/api.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/project_clojure/api.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project_clojure/controller.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/project_clojure/controller.clj" afterDir="false" />
     </list>
@@ -31,45 +30,49 @@
         <counts>
           <entry key="AddAuthor" value="2" />
           <entry key="UpdateAuthor" value="1" />
-          <entry key="clj" value="10" />
+          <entry key="clj" value="12" />
           <entry key="css" value="1" />
           <entry key="extract-native-dependencies" value="1" />
           <entry key="html" value="1" />
-          <entry key="iml" value="2" />
+          <entry key="iml" value="3" />
           <entry key="jpg" value="1" />
           <entry key="js" value="1" />
-          <entry key="mustache" value="7" />
+          <entry key="mustache" value="13" />
           <entry key="properties" value="1" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="Clojure" value="10" />
+          <entry key="Clojure" value="12" />
           <entry key="HTML" value="1" />
-          <entry key="IDEA_MODULE" value="2" />
+          <entry key="IDEA_MODULE" value="3" />
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="PLAIN_TEXT" value="17" />
           <entry key="Properties" value="1" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="UpdateAuthor" value="186" />
-          <entry key="clj" value="793" />
+          <entry key="clj" value="1033" />
           <entry key="html" value="7" />
-          <entry key="mustache" value="1017" />
+          <entry key="mustache" value="1685" />
           <entry key="properties" value="2" />
           <entry key="txt" value="20" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Clojure" value="793" />
+          <entry key="Clojure" value="1033" />
           <entry key="HTML" value="7" />
-          <entry key="PLAIN_TEXT" value="1223" />
+          <entry key="PLAIN_TEXT" value="1891" />
           <entry key="Properties" value="2" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -79,46 +82,67 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/project_clojure/DB/DBBroker.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="523">
+              <caret line="42" column="63" lean-forward="true" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project_clojure/controller.clj">
+        <entry file="file://$PROJECT_DIR$/resources/view/Authors.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="4148">
+              <caret line="244" column="52" selection-start-line="244" selection-start-column="52" selection-end-line="244" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/project_clojure/api.clj">
+        <entry file="file://$PROJECT_DIR$/resources/view/Books.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+            <state relative-caret-position="331">
+              <caret line="253" column="75" lean-forward="true" selection-start-line="253" selection-start-column="75" selection-end-line="253" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/view/UpdateAuthor.mustache">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="201" column="37" selection-start-line="201" selection-start-column="37" selection-end-line="201" selection-end-column="37" />
+            <state relative-caret-position="2989">
+              <caret line="347" column="12" selection-start-line="347" selection-start-column="12" selection-end-line="347" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/view/Authors.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="226" column="63" lean-forward="true" selection-start-line="226" selection-start-column="63" selection-end-line="226" selection-end-column="63" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/project-clojure.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -144,17 +168,21 @@
         <option value="$PROJECT_DIR$/src/project_clojure/core.clj" />
         <option value="$PROJECT_DIR$/resources/view/FirstPage.mustache" />
         <option value="$PROJECT_DIR$/src/project_clojure/DB/authors.clj" />
-        <option value="$PROJECT_DIR$/resources/view/Books.mustache" />
         <option value="$PROJECT_DIR$/resources/view/UpdateAuthor" />
         <option value="$PROJECT_DIR$/src/project_clojure/DB/books.clj" />
-        <option value="$PROJECT_DIR$/src/project_clojure/api.clj" />
-        <option value="$PROJECT_DIR$/src/project_clojure/controller.clj" />
-        <option value="$PROJECT_DIR$/resources/view/Authors.mustache" />
         <option value="$PROJECT_DIR$/resources/view/UpdateAuthor.mustache" />
+        <option value="$PROJECT_DIR$/resources/view/AddAuthor.mustache" />
+        <option value="$PROJECT_DIR$/resources/view/Books.mustache" />
+        <option value="$PROJECT_DIR$/resources/view/Authors.mustache" />
+        <option value="$PROJECT_DIR$/src/project_clojure/controller.clj" />
+        <option value="$PROJECT_DIR$/src/project_clojure/DB/DBBroker.clj" />
+        <option value="$PROJECT_DIR$/resources/view/UpdateBook.mustache" />
+        <option value="$PROJECT_DIR$/src/project_clojure/api.clj" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="574" />
     <option name="y" value="2" />
     <option name="width" value="812" />
@@ -176,6 +204,11 @@
             <path>
               <item name="project-clojure" type="b2602c69:ProjectViewProjectNode" />
               <item name="project-clojure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project-clojure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-clojure" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="project-clojure" type="b2602c69:ProjectViewProjectNode" />
@@ -292,7 +325,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="REPL" order="4" side_tool="true" />
+      <window_info anchor="right" id="REPL" order="4" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Leiningen" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
@@ -344,54 +377,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/jquery-confirm.min.css" />
-    <entry file="file://$PROJECT_DIR$/resources/js/jquery-confirm.min.js" />
-    <entry file="file://$PROJECT_DIR$/resources/view/Books.mustache">
+    <entry file="file://$PROJECT_DIR$/src/project_clojure/DB/authors.clj" />
+    <entry file="file://$PROJECT_DIR$/resources/view/AddAuthor.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project_clojure/DB/authors.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="67" lean-forward="true" selection-start-line="12" selection-end-line="24" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project_clojure/controller.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project_clojure/DB/DBBroker.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project_clojure/api.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="26" column="48" lean-forward="true" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/view/UpdateAuthor.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="201" column="37" selection-start-line="201" selection-start-column="37" selection-end-line="201" selection-end-column="37" />
+        <state relative-caret-position="155">
+          <caret line="201" column="51" selection-start-line="201" selection-start-column="51" selection-end-line="201" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/view/Authors.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="226" column="63" lean-forward="true" selection-start-line="226" selection-start-column="63" selection-end-line="226" selection-end-column="63" />
+        <state relative-caret-position="4148">
+          <caret line="244" column="52" selection-start-line="244" selection-start-column="52" selection-end-line="244" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/view/UpdateAuthor.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="230" column="7" lean-forward="true" selection-end-line="230" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project_clojure/controller.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/view/UpdateBook.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="215" column="71" selection-start-line="215" selection-start-column="71" selection-end-line="215" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/view/Books.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="253" column="75" lean-forward="true" selection-start-line="253" selection-start-column="75" selection-end-line="253" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project_clojure/api.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project_clojure/DB/DBBroker.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="42" column="63" lean-forward="true" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
         </state>
       </provider>
     </entry>

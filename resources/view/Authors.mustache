@@ -16,9 +16,9 @@
     {
         background-image:url('pages-book-green.jpg');
         width:100%;
-        padding-top:70px;
+padding-top:90px;
         height: 565px;
-        margin-top: 85px;
+
     }
 
 
@@ -139,7 +139,8 @@
   border-collapse: collapse;
   width: 90%;
   margin-left:40px;
-  margin-right:20px;
+
+  margin-top:10px;
 }
 
 .table td, .table th {
@@ -181,6 +182,29 @@ color: orange; /* Blue background */
     text-align:center;
 
 }
+.btnadd{
+background-color: #4CAF50; /* Green */
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  float:right;
+  margin-right:90px;
+  margin-bottom:10px;
+
+}
+.btnaddinside {
+  color:white;
+
+  align:center;
+  width:100%;
+  margin-left:10px;
+
+
+}
 
 </style>
 
@@ -208,21 +232,22 @@ color: orange; /* Blue background */
   </div>
 </div>
 
-           </div>
+ </div>
     <div class="main">
+    <button class="btnadd"><a href="/DB/dbb/add_author" class="btnaddinside"><i class="fas fa-user-plus"></i>Dodaj autora</a></button>
             <table class="table">
                                 <tr>
-                                    <th>ID</th>
+
                                     <th>Ime</th>
                                     <th>Prezime</th>
                                     <th>Nagrade</th>
-                                    <th class=btns>Izmeni</th>
-                                    <th class=btns>Obrisi</th>
+                                    <th class="btns">Izmeni</th>
+                                    <th class="btns">Obrisi</th>
 
                                     {{#authors}}
 
                                 <tr>
-                                    <td>{{authorid}}</th>
+
                                     <td>{{author_name}}</th>
                                     <td>{{author_surname}}</th>
                                     <td>{{awards}}</th>
@@ -232,6 +257,7 @@ color: orange; /* Blue background */
                                 {{/authors}}
                             </table>
     </div>
+
     <div class="footer">
 
    <p style="text-align:center">Developed by: Andrijana Stanić. Contact information: <a style="color:#4CAF50;" href="mailto:andrijana.stanic94@gmail.com">

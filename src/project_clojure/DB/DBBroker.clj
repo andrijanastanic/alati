@@ -27,4 +27,17 @@
 (defn update_author [id params]
   (sql/update! connection :author params (s/where {:authorID id})))
 
+(defn insert_author
+  [params]
+  (sql/insert! connection :author params))
 
+(defn select_book_by_id[id]
+  (first (sql/query connection
+                    (s/select * :book (s/where {:bookID id})))))
+
+(defn delete_book [id]
+  (sql/delete! connection :book
+               ["bookID = ?" id]))
+
+(defn update_book [id params]
+  (sql/update! connection :book params (s/where {:bookID id})))

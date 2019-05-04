@@ -29,7 +29,22 @@
            (POST "/DB/dbb/:authorID/update_author" [& author]
              (do (dbb/update_author (:authorID author) author)
                  (resp/redirect "/authors")))
+           (GET "/DB/dbb/add_author" []
+             (controller/add_author))
+           (POST "/DB/dbb/insert_author" [& params]
+             (do (dbb/insert_author params)
+                 (resp/redirect "/authors")))
+           (GET "/DB/dbb/:id/select_book" [id]
+             (controller/update_book id))
+           (GET "/DB/dbb/:id/delete_book" [id]
+             (do (dbb/delete_book id)
+                 (resp/redirect "/books")))
+           (POST "/DB/dbb/:bookID/update_book" [& book]
+             (do (dbb/update_book (:bookID book) book)
+                 (resp/redirect "/books")))
            )
+
+
 
 (defroutes app-routes
            api_routes

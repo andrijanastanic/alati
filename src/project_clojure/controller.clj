@@ -25,3 +25,11 @@
 (defn update_author[id]
   (render-template "UpdateAuthor" {:author (dbb/select_author_by_id id)}
                    ))
+
+(defn add_author[]
+  (render-template "AddAuthor" {}))
+
+(defn update_book[id]
+  (render-template "UpdateBook" {:book (dbb/select_book_by_id id)
+                                 :authors (dbb/select_all_authors)}
+                   ))
