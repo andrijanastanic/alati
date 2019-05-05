@@ -52,3 +52,6 @@
 (defn insert_review
   [params]
   (sql/insert! connection :review params))
+
+(defn select_top_list []
+  (into [] (sql/query connection ["SELECT book.name as name,ROUND(AVG(stars),1) as average FROM review left join book on review.bookID=book.bookID GROUP by review.bookID ORDER by average desc"])))

@@ -54,6 +54,8 @@
            (POST "/DB/dbb/insert_review" [& params]
              (do (dbb/insert_review params)
                  (resp/redirect "/bookReview")))
+           (GET "/topList" [] (controller/topList))
+           (route/resources "/")
            )
 
 

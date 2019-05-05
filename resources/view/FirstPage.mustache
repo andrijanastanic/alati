@@ -1,25 +1,33 @@
 <html>
 <head>
  <title>Početna</title>
-<style >
-.body{
-    background-image:url("pages-book-green.jpg");
-}
-    .body
-    {
-        width: 100%;
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<style>
+body{
 
-        }
+
+background-image:url("Image.jpg");
+background-repeat: repeat;
+
+background-size:100%;
+
+}
+
     .main
     {
-        background-image:url('view\pages-book-green.jpg');
-        width:100%;
-        padding-top:70px;
-        height: 565px;
-        margin-top: 85px;
+         width:100%;
+         padding-top:90px;
+         height: 565px;
     }
 
+#quote{
+font-size:16px;
+    color: #4CAF50;
 
+    font-weight:bold;
+
+    font-style:italic;
+}
 
 .header
 {
@@ -32,6 +40,7 @@
 
 
 }
+
 
 .header h1
 {
@@ -132,8 +141,7 @@
   text-align: center;
 }
 </style>
-
-</head>-->
+</head>
 <body>
 <div class="container">
 <div class="header">
@@ -142,7 +150,7 @@
                     Knjigoteka
                 </h1>
             </div>
-            <div class="navbar">
+ <div class="navbar">
   <a style="margin-left:550px; width: 57px;" href="/index">Početna</a>
   <a href="/authors">Autori</a>
   <div class="dropdown">
@@ -152,13 +160,26 @@
     <div class="dropdown-content">
       <a href="/books">Lista knjiga</a>
       <a href="/bookReview">Recenzije</a>
+      <a href="/topList">Top lista</a>
 
     </div>
   </div>
 </div>
 
-           </div>
+</div>
     <div class="main">
+
+        <p id="quote" style="margin-left:100px;margin-top:150px">"Obrazovanje je najmoćnije oružje koje možete upotrebiti da menjate svet."
+        Nelson Mandela
+        </p>
+
+        <p id="quote" style="margin-left:200px;margin-top:200px">"Svet je pozornica na kojoj svako igra svoju ulogu."
+        Šekspir
+        </p>
+
+    <p id="quote" style="margin-left:250px;margin-top:170px">"Nije najgore što sve prolazi, nego što mi ne možemo da se pomirimo sa tom prostom i neizbežnom činjenicom."
+    Ivo Andrić
+    </p>
 
 
     </div>

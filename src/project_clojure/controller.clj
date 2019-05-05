@@ -42,3 +42,6 @@
 
 (defn add_review[]
   (render-template "AddReview" {:books (dbb/select_all_books)}))
+
+(defn topList[]
+  (render-template "TOPList" {:list (dbb/select_top_list)}))
