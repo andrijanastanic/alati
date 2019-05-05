@@ -41,3 +41,14 @@
 
 (defn update_book [id params]
   (sql/update! connection :book params (s/where {:bookID id})))
+
+(defn insert_book
+  [params]
+  (sql/insert! connection :book params))
+
+(defn select_all_reviews []
+  (into [] (sql/query connection ["SELECT * FROM review left join book on review.bookID=book.bookID order by book.name asc"])))
+
+(defn insert_review
+  [params]
+  (sql/insert! connection :review params))

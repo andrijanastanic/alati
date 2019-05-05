@@ -4,21 +4,15 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 <style>
-.body{
-    background-image:url("pages-book-green.jpg");
+body{
+    background-image:url('Green_Book.png');
 }
-    .body
-    {
-        width: 100%;
 
-        }
-    .main
-    {
-        background-image:url('pages-book-green.jpg');
-        width:100%;
-        padding-top:70px;
-        height: 565px;
-        margin-top: 85px;
+    .main{
+        background-image:url("Green_Book.png");
+       width:100%;
+       padding-top:90px;
+               height: 565px;
     }
 
 
@@ -205,6 +199,30 @@ background-color: #4CAF50; /* Green */
 
 }
 
+.btnadd{
+background-color: #4CAF50; /* Green */
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  float:right;
+  margin-right:90px;
+  margin-bottom:10px;
+
+}
+.btnaddinside {
+  color:white;
+
+  align:center;
+  width:100%;
+  margin-left:10px;
+
+
+}
+
 </style>
 
 </head>-->
@@ -225,7 +243,7 @@ background-color: #4CAF50; /* Green */
     </button>
     <div class="dropdown-content">
       <a href="/books">Lista knjiga</a>
-      <a href="#">TOP lista</a>
+      <a href="/bookReview">TOP lista</a>
 
     </div>
   </div>
@@ -233,6 +251,7 @@ background-color: #4CAF50; /* Green */
 
            </div>
     <div class="main">
+    <button class="btnadd"><a href="/DB/dbb/add_book" class="btnaddinside"><i class="fas fa-plus"></i>Dodaj knjigu</a></button><br>
             <table class="table">
                                 <tr>
 

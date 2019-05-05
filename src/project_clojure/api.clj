@@ -42,6 +42,18 @@
            (POST "/DB/dbb/:bookID/update_book" [& book]
              (do (dbb/update_book (:bookID book) book)
                  (resp/redirect "/books")))
+           (GET "/DB/dbb/add_book" []
+             (controller/add_book))
+           (POST "/DB/dbb/insert_book" [& params]
+             (do (dbb/insert_book params)
+                 (resp/redirect "/books")))
+           (GET "/bookReview" [] (controller/reviews))
+           (route/resources "/")
+           (GET "/DB/dbb/add_review" []
+             (controller/add_review))
+           (POST "/DB/dbb/insert_review" [& params]
+             (do (dbb/insert_review params)
+                 (resp/redirect "/bookReview")))
            )
 
 

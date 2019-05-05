@@ -33,3 +33,12 @@
   (render-template "UpdateBook" {:book (dbb/select_book_by_id id)
                                  :authors (dbb/select_all_authors)}
                    ))
+
+(defn add_book[]
+  (render-template "AddBook" {:authors (dbb/select_all_authors)}))
+
+(defn reviews[]
+  (render-template "BookReview" {:reviews (dbb/select_all_reviews)}))
+
+(defn add_review[]
+  (render-template "AddReview" {:books (dbb/select_all_books)}))

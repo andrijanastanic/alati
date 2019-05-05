@@ -1,7 +1,7 @@
 <html>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <head>
- <title>Dodaj autora</title>
+ <title>Izmeni autora</title>
 
 <style>
 .body{
@@ -199,21 +199,26 @@ Form{
            </div>
     <div class="main">
             <div class="Form" style="width:30%;">
-                <form action="/DB/dbb/insert_author" method="post">
+                <form action="/DB/dbb/insert_book" method="post">
                     <div class="form-group">
-                        <label for="name">Ime autora</label>
-                        <input type="text" class="form-control" name="author_name" value="{{author.author_name}}"/>
+                        <label for="name">Naziv knjige</label>
+                        <input type="text" class="form-control" name="name" value="{{book.name}}"/>
                     </div>
                      <div class="form-group">
-                         <label for="surname">Prezime autora</label>
-                         <input type="text" class="form-control" name="author_surname" value="{{author.author_surname}}"/>
+                         <label for="published">Izdata</label>
+                         <input type="text" class="form-control" name="published" value="{{book.published}}"/>
                      </div>
-                    <div class="form-group">
-                        <label for="awards">Nagrade</label>
-                        <input type="text" class="form-control" name="awards" value="{{author.awards}}"/>
-                    </div>
+                     <div class="form-group">
 
-                    <button type="submit">Dodaj autora</button>
+                         <label for="aut_id">Autor</label>
+                             <select name="authorID" class="form-control" id="authorID">
+                                    {{#authors}}
+                                        <option value="{{authorid}}">{{author_name}} {{author_surname}}</option>
+                                    {{/authors}}
+                             </select>
+                     </div>
+
+                    <button type="submit">Dodaj knjigu</button>
                 </form>
             </div>
 
