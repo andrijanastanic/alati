@@ -3,16 +3,27 @@
 Simple Clojure web application for books. For communciation with databaase is used my SQL jdbc connector and database is hosted on localhost. Application uses CRUD(Create, Read, Update, Delete) operations.
 
 It allows user to:
+
 -see all authors from database
+
 -insert new author
+
 -update author
+
 -delete author
+
 -see all books from database
+
 -insert new book
+
 -update book
+
 -delete book
+
 -see reviews for books
+
 -insert new review and rate the book
+
 -see best rated books
 
 
