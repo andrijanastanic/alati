@@ -11,10 +11,13 @@
    :password ""})
 
 (defn select_all_books []
-  (into [] (sql/query connection ["SELECT * FROM book left join author on book.authorID=author.authorID order by book.name asc"])))
+  (into [] (sql/query connection ["SELECT * FROM book
+                                   left join author on book.authorID=author.authorID
+                                   order by book.name asc"])))
 
 (defn select_all_authors []
-  (into [] (sql/query connection ["SELECT * FROM author order by author.author_name asc"])))
+  (into [] (sql/query connection ["SELECT * FROM author
+                                   order by author.author_name asc"])))
 
 (defn select_author_by_id[id]
   (first (sql/query connection
@@ -47,11 +50,16 @@
   (sql/insert! connection :book params))
 
 (defn select_all_reviews []
-  (into [] (sql/query connection ["SELECT * FROM review left join book on review.bookID=book.bookID order by book.name asc"])))
+  (into [] (sql/query connection ["SELECT * FROM review
+                                   left join book on review.bookID=book.bookID
+                                   order by book.name asc"])))
 
 (defn insert_review
   [params]
   (sql/insert! connection :review params))
 
 (defn select_top_list []
-  (into [] (sql/query connection ["SELECT book.name as name,ROUND(AVG(stars),1) as average FROM review left join book on review.bookID=book.bookID GROUP by review.bookID ORDER by average desc"])))
+  (into [] (sql/query connection ["SELECT book.name as name,ROUND(AVG(stars),1) as average FROM review
+                                   left join book on review.bookID=book.bookID
+                                   GROUP by review.bookID
+                                   ORDER by average desc"])))

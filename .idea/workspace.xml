@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ad93efab-8cad-4848-a88f-c2bb813756c5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/Images/pages-book-green.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/view/AddAuthor.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/resources/view/AddAuthor.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/view/AddBook.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/resources/view/AddBook.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/view/AddReview.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/resources/view/AddReview.mustache" afterDir="false" />
@@ -11,10 +10,11 @@
       <change beforePath="$PROJECT_DIR$/resources/view/BookReview.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/resources/view/BookReview.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/view/Books.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/resources/view/Books.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/view/FirstPage.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/resources/view/FirstPage.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/view/Image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Images/Image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/view/TOPList.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/resources/view/TOPList.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/view/UpdateAuthor.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/resources/view/UpdateAuthor.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/view/UpdateBook.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/resources/view/UpdateBook.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/project_clojure/DB/DBBroker.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/project_clojure/DB/DBBroker.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project_clojure/api.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/project_clojure/api.clj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/project_clojure/controller.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/project_clojure/controller.clj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,27 +27,28 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="AddAuthor" value="2" />
           <entry key="UpdateAuthor" value="1" />
-          <entry key="clj" value="16" />
+          <entry key="clj" value="19" />
           <entry key="css" value="1" />
           <entry key="extract-native-dependencies" value="1" />
           <entry key="gif" value="3" />
           <entry key="html" value="1" />
           <entry key="image" value="1" />
           <entry key="iml" value="3" />
-          <entry key="jpg" value="4" />
+          <entry key="jpg" value="5" />
           <entry key="js" value="1" />
-          <entry key="mustache" value="34" />
+          <entry key="mustache" value="50" />
           <entry key="properties" value="1" />
           <entry key="ss" value="1" />
           <entry key="style" value="1" />
@@ -57,12 +58,12 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="Clojure" value="16" />
+          <entry key="Clojure" value="19" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="3" />
-          <entry key="Image" value="9" />
+          <entry key="Image" value="10" />
           <entry key="JavaScript" value="1" />
-          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="PLAIN_TEXT" value="54" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="6" />
         </counts>
@@ -70,10 +71,10 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="UpdateAuthor" value="186" />
-          <entry key="clj" value="1315" />
+          <entry key="clj" value="1390" />
           <entry key="css" value="1" />
           <entry key="html" value="7" />
-          <entry key="mustache" value="2938" />
+          <entry key="mustache" value="3200" />
           <entry key="properties" value="2" />
           <entry key="style" value="7" />
           <entry key="txt" value="20" />
@@ -83,9 +84,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="8" />
-          <entry key="Clojure" value="1315" />
+          <entry key="Clojure" value="1390" />
           <entry key="HTML" value="7" />
-          <entry key="PLAIN_TEXT" value="3144" />
+          <entry key="PLAIN_TEXT" value="3406" />
           <entry key="Properties" value="2" />
           <entry key="XML" value="2" />
         </counts>
@@ -94,11 +95,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/view/UpdateAuthor.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="189" column="35" selection-start-line="189" selection-start-column="35" selection-end-line="189" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/view/UpdateBook.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="189" column="40" selection-start-line="189" selection-start-column="40" selection-end-line="189" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/view/Books.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="248" column="39" lean-forward="true" selection-start-line="239" selection-start-column="1" selection-end-line="248" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/view/FirstPage.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="179" column="39" selection-start-line="179" selection-start-column="39" selection-end-line="179" selection-end-column="39" />
+            <state relative-caret-position="136">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/project_clojure/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/project_clojure/DB/DBBroker.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/view/TOPList.mustache">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="251" column="35" selection-start-line="251" selection-start-column="35" selection-end-line="251" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -128,21 +192,21 @@
         <option value="$PROJECT_DIR$/resources/view/UpdateAuthor" />
         <option value="$PROJECT_DIR$/src/project_clojure/DB/books.clj" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/resources/view/UpdateBook.mustache" />
         <option value="$PROJECT_DIR$/src/project_clojure/api.clj" />
         <option value="$PROJECT_DIR$/src/project_clojure/controller.clj" />
-        <option value="$PROJECT_DIR$/src/project_clojure/DB/DBBroker.clj" />
-        <option value="$PROJECT_DIR$/resources/view/AddAuthor.mustache" />
         <option value="$PROJECT_DIR$/resources/style" />
         <option value="$PROJECT_DIR$/resources/view/style" />
         <option value="$PROJECT_DIR$/resources/view/style.css" />
+        <option value="$PROJECT_DIR$/resources/view/AddAuthor.mustache" />
         <option value="$PROJECT_DIR$/resources/view/AddReview.mustache" />
-        <option value="$PROJECT_DIR$/resources/view/TOPList.mustache" />
+        <option value="$PROJECT_DIR$/resources/view/AddBook.mustache" />
         <option value="$PROJECT_DIR$/resources/view/Authors.mustache" />
         <option value="$PROJECT_DIR$/resources/view/BookReview.mustache" />
         <option value="$PROJECT_DIR$/resources/view/Books.mustache" />
-        <option value="$PROJECT_DIR$/resources/view/AddBook.mustache" />
+        <option value="$PROJECT_DIR$/resources/view/TOPList.mustache" />
         <option value="$PROJECT_DIR$/resources/view/UpdateAuthor.mustache" />
+        <option value="$PROJECT_DIR$/resources/view/UpdateBook.mustache" />
+        <option value="$PROJECT_DIR$/src/project_clojure/DB/DBBroker.clj" />
         <option value="$PROJECT_DIR$/resources/view/FirstPage.mustache" />
       </list>
     </option>
@@ -161,7 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -203,21 +266,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="cursive.last.file.extension.C\:/Users/Hp EliteBook 840 G3/Desktop/project-clojure/src" value="clj" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../green-books.gif" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Hp EliteBook 840 G3\Desktop\project-clojure\resources\view" />
-      <recent name="C:\Users\Hp EliteBook 840 G3\Desktop\project-clojure\resources\Images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Hp EliteBook 840 G3\Desktop\project-clojure\resources\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hp EliteBook 840 G3\Desktop\project-clojure\resources\Images" />
+      <recent name="C:\Users\Hp EliteBook 840 G3\Desktop\project-clojure\resources\view" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -266,7 +330,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1323752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1323752" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -285,10 +349,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Leiningen" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="REPL" order="7" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="REPL" order="6" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Leiningen" order="7" weight="0.329296" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1323752" />
@@ -338,23 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/view/pages-book-green.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/project_clojure/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project_clojure/DB/authors.clj" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -385,13 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/project_clojure/DB/DBBroker.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/project_clojure/api.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
@@ -399,91 +439,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/view/pages-book-green.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/view/ss">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/view/image">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/view/pages-book-green.jpg" />
+    <entry file="file://$PROJECT_DIR$/resources/view/ss" />
+    <entry file="file://$PROJECT_DIR$/resources/view/image" />
     <entry file="file://$PROJECT_DIR$/../green-books.gif">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/view/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/view/Image.jpg">
+    <entry file="file://$PROJECT_DIR$/resources/view/style.css" />
+    <entry file="file://$PROJECT_DIR$/resources/Images/Image.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/view/UpdateBook.mustache">
+    <entry file="file://$PROJECT_DIR$/resources/view/AddAuthor.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/view/AddReview.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="193" column="38" selection-start-line="193" selection-start-column="38" selection-end-line="193" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/view/TOPList.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/view/Books.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/view/Authors.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="351">
+          <caret line="189" column="36" selection-start-line="189" selection-start-column="30" selection-end-line="189" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/view/AddBook.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="385">
+          <caret line="189" column="35" selection-start-line="189" selection-start-column="35" selection-end-line="189" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/view/UpdateAuthor.mustache">
+    <entry file="file://$PROJECT_DIR$/resources/view/AddReview.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="237">
+          <caret line="190" column="34" selection-start-line="190" selection-start-column="34" selection-end-line="190" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/view/AddAuthor.mustache">
+    <entry file="file://$PROJECT_DIR$/resources/view/Authors.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="199">
+          <caret line="225" column="35" selection-start-line="225" selection-start-column="35" selection-end-line="225" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/view/BookReview.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="537">
+          <caret line="262" column="46" selection-start-line="262" selection-start-column="46" selection-end-line="262" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/view/TOPList.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="251" column="35" selection-start-line="251" selection-start-column="35" selection-end-line="251" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/view/UpdateAuthor.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="189" column="35" selection-start-line="189" selection-start-column="35" selection-end-line="189" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/view/Books.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="248" column="39" lean-forward="true" selection-start-line="239" selection-start-column="1" selection-end-line="248" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/view/UpdateBook.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="189" column="40" selection-start-line="189" selection-start-column="40" selection-end-line="189" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project_clojure/DB/DBBroker.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/view/FirstPage.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="179" column="39" selection-start-line="179" selection-start-column="39" selection-end-line="179" selection-end-column="39" />
+        <state relative-caret-position="136">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/project_clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
